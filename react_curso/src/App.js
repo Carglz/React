@@ -1,7 +1,10 @@
 import React from 'react';
 import './App.css';
-
-
+import Blue from "./Components/Blue";
+import Green from "./Components/Green";
+import Red from "./Components/Red";
+import Violet from "./Components/Violet";
+import Yellow from "./Components/Yellow";
 
 
 
@@ -11,7 +14,7 @@ const Rojo = (props) => <div className='Rojo'>Rojo</div>
 const Amarillo = (props) => <div className="Amarillo">Amarillo</div>
 const Morado = (props) => <div className="Morado">Morado</div>
 
-function Prueba() {
+/*function Prueba() {
   return <div className="prueba">Prueba</div>;
 }
 
@@ -36,6 +39,11 @@ return (
 <Amarillo/>
 <Morado/>
 
+<Blue/>
+<Green/>
+<Red/>
+<Violet/>
+<Yellow/>
 </div>
 )
 }
